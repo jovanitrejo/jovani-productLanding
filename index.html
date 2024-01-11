@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <title>Coffee shop website</title>
+  </head>
+  <body>
+    <header id="header">
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/002/412/377/small/coffee-cup-logo-coffee-shop-icon-design-free-vector.jpg" id="header-img" />
+      <nav id="nav-bar">
+        <li><a class="nav-link" href="#about_us">About us</a></li>
+        <li><a class="nav-link" href="#menu">Menu</a></li>
+        <li><a class="nav-link" href="#contact_us">Contact</a></li>
+      </nav>
+    </header>
+    <main>
+      <section class="main-section" id="about_us">
+        <h1>
+          We are Chicago's #1 Coffee Shop
+        </h1>
+        <div class="video-with-caption">
+        <iframe width="985" height="554" src="https://www.youtube.com/embed/gVUloujNd_I" title="video sequence related to coffee - No Copyright Videos - Royalty Free Stock Videos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="video"></iframe>
+        <p id="video-sub">Indulge in the rich aroma of community and savor the perfect blend of passion and flavor at Chicago's #1 Coffee Shop. Your local haven for exceptional coffee experiences!</p>
+        </div>
+      </section>
+      <section class="main-section" id="menu">
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="espresso">
+          <h2>Espresso</h2>
+          <p>Espresso - <span class="bold">$3.00</span></p>
+          <p>Americano - <span class="bold">$3.50</span></p>
+          <p>Latte - <span class="bold">$2.75</span></p>
+          <p>Cappuccino - <span class="bold">$3.25</span></p>
+          <p>Mocha - <span class="bold">$4.00</span></p>
+        </div>
+        <div class="brewed-coffee">
+          <h2>Brewed Coffee</h2>
+          <p>Drip Coffee - <span class="bold">$2.50</span></p>
+          <p>French Press - <span class="bold">$3.50</span></p>
+          <p>Pour Over - <span class="bold">$2.75</span></p>
+        </div>
+        <div class="teas">
+          <h2>Teas</h2>
+          <p>Herbal - <span class="bold">$3.50</span></p>
+          <p>Black - <span class="bold">$3.50</span></p>
+          <p>Green - <span class="bold">$2.50</span></p>
+        </div>
+        <div class="space"></div>
+        <div class="space"></div>
+      </section>
+      <section class="main-section" id="contact_us">
+        <p class="hiring">
+          We're hiring! Looking for a job? Enter your email below and one of our associates will be in contact with you!
+        </p>
+        <form class="contact-us" id="form" method="get" action="https://www.freecodecamp.com/email-submit">
+          <input type="email" class="job-form" id="email" placeholder="Enter your E-Mail here" name="email">
+          <input type="submit" value="submit" id="submit">
+        </form>
+      </section>
+    </main>
+  </body>
+  <footer>
+    <div class="bottom-right">
+      <p>Made for freeCodeCamp's HTML and CSS Responsive Web Design Certification</p>
+    </div>
+  </footer>
+</html>
